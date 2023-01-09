@@ -19,6 +19,6 @@ app.use('/api', router)
   //   })
   
   
+const port = process.env.PORT || 6000
 
-
-app.listen(process.env.PORT, '0.0.0.0', () => console.log('Listening on port 5000'))
+app.listen(port, '0.0.0.0', () => console.log('Listening on port 5000'))
